@@ -1,0 +1,19 @@
+# Python
+.venv
+*.py[co]
+
+# LaTeX
+*.aux
+*.synctex
+*.synctex.gz
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+
+# Cositas de macOS
+.DS_Store
+*.nav
+*.snm
+*.toc
+/Notebooks/.ipynb_checkpoints

@@ -1,0 +1,9 @@
+# Data & herramientas de visualizacion
+gapminder
+pandas
+seaborn
+# Para construir la mini-app web
+streamlit
+watchdog
+# Para poder registrar el venv como "kernel" de jupyter
+ipykernel
