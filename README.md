@@ -1,4 +1,4 @@
-# TPcit0
+# TPcit0 - Una galería gráfica colaborativa con Gapminder
 Trabajo Práctico: Consigna Integradora Temática Nro. 0, AKA "tepecito"
 
 Un acercamiento amigable al TP #1
