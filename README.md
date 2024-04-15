@@ -9,14 +9,19 @@ Un acercamiento amigable al TP #1
 
 ## Consigna
 
-1. _Forkee_ este repositorio a su cuenta personal de GitHub. Comience una rama con el mismo nombre que su usuario de dicha plataforma.
-2. A partir del dataset `gapminder` en el paquete homónimo, y usando la interfaz `objects` del paquete `seaborn`, genere una visualización que resalte algún aspecto de interés del dataset. Asegúrese de seguir buenas prácticas: dé nombre a los ejes y título al gráfico, no codifique información innecesaria en canales superfluos, et cetera.
-3. Escriba un _sucinto_ párrafo descriptivo para la visualización.
-4. Siguiendo la "plantilla" de `lifeExpOceania.py` o `paisesPorContinente.py`, agregue un nuevo archivo a la carpeta `plotters/`, que contenga una única función sin argumentos, de nombre `plot`, y que devuelva:
-  - un objeto `seaborn.objects.Plot` con el gráfico realizado, o (preferentemente)
+
+1. _Forkee_ este repositorio a su cuenta personal de GitHub.
+2. Comience una rama con el mismo nombre que su usuario de dicha plataforma.
+3. En la carpeta `plotters`, cree un nuevo archivo de Python.
+4. Copie los contenidos de la plantilla `paisesPorContinente.py` o `lifeExpOceania.py` al archivo recién creado. 
+   Este archivo debe contener una única función sin argumentos, de nombre `plot`, y que devuelva:
+  - un objeto seaborn.objects.Plot con el gráfico realizado, o (preferentemente)
   - un diccionario (`dict`) con tres claves: `figura, descripcion autor` con la información relevante.
-5. Vaya _commiteando_ los cambios que realiza a su rama, hasta estar satisfecha con el resultado.
-6. Publique la rama en su _fork_ del repositorio actual, y cree un Pull Request contra el repositorio original.
+5. En el nuevo archivo, a partir del dataset `gapminder` en el paquete homónimo, y usando la interfaz `objects` del paquete `seaborn`, genere una 
+visualización que resalte algún aspecto de interés del dataset. Asegúrese de seguir buenas prácticas: dé nombre a los ejes y 
+título al gráfico, no codifique información innecesaria en canales superfluos, et cetera. Escriba un sucinto párrafo descriptivo para la visualización.
+6. Vaya _commiteando_ los cambios que realiza a su rama, hasta estar satisfecha con el resultado.
+7. Publique la rama en su _fork_ del repositorio actual, y cree un Pull Request contra el repositorio original.
   - Ponga como revisor a un compañero de confianza, y atienda a sus indicaciones hasta que se dé por aprobado.
   - Ponga como segundo revisor a un miembro de la cátedra (`slap, nz-angel, capitantoto`) y repita.
 
