@@ -37,7 +37,7 @@ En la consola, desde la raíz del repo (cf.: comando `cd` para `c`ambiar de `d`i
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.in
+pip install -r requirements.txt
 ```
 
 Con esto, quedará creado un entorno virtual con las librerías necesarias
