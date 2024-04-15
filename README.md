@@ -27,7 +27,7 @@ título al gráfico, no codifique información innecesaria en canales superfluos
 
 Con los PRs mergeados, levantaremos una app pública para compartir con los compañerxs de ambos turnos y el resto de la comunidad educativa.
 
-## Desarrollo local
+## OPCIONAL: Desarrollo local
 
 Técnicamente, el desarrollo del TP se puede realizar en cualquier plataforma, y finalmente "venir al repositorio" sólo para crear el `plotter` relevante y publicar su rama en GitHub. Sin embargo, les recomiendo ampliamente que intenten desarrollar _desde el repositorio_, para que vean cómo se va construyendo la app en vivo.
 
