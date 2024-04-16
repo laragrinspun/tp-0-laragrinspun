@@ -1,6 +1,5 @@
 """
-# My first app
-Here's our first attempt at using data to create a table:
+# TPcit0: una galería de _gapminder_
 """
 
 import streamlit as st
