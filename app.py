@@ -15,12 +15,11 @@ def submodulos(modulo):
     return [submodule.name for submodule in iter_modules(modulo.__path__)]
 
 # st.set_page_config(layout="wide")
-st.write("# TPcito: una galería de _gapminder_")
+st.write("# TPcit0: una galería de _gapminder_")
 
 
 opcion = st.selectbox("¿Qué gráfico desea ver?", submodulos(plotters))
 
-st.write()
 fig = plt.figure(figsize=(11,6))
 data = importlib.import_module(f"plotters.{opcion}").plot()
 
